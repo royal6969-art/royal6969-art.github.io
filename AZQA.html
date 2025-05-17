@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah's Heartfelt Proposal for Azqa</title>
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .proposal-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            animation: fadeIn 1.5s ease-out;
+        }
+        
+        /* Header Styles */
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            position: relative;
+        }
+        
+        h1 {
+            color: #e75480;
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .names {
+            font-size: 20px;
+            color: #e75480;
+            margin: 15px 0;
+            font-weight: 600;
+        }
+        
+        /* Heart Animation */
+        .heart {
+            position: absolute;
+            pointer-events: none;
+            animation: float 4s ease-in-out infinite;
+            opacity: 0.7;
+        }
+        
+        /* Content Styles */
+        .proposal-content {
+            margin: 25px 0;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            text-align: center;
+            animation: slideUp 0.8s ease-out;
+            animation-fill-mode: both;
+        }
+        
+        .highlight {
+            color: #e75480;
+            font-weight: 600;
+        }
+        
+        /* Question Styles */
+        .question {
+            margin: 30px 0;
+            text-align: center;
+            animation: pulse 2s infinite;
+        }
+        
+        .question-text {
+            font-size: 22px;
+            font-weight: 700;
+            color: #e75480;
+            margin-bottom: 20px;
+        }
+        
+        /* Button Styles */
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .btn-yes {
+            background-color: #e75480;
+            color: white;
+            box-shadow: 0 4px 15px rgba(231, 84, 128, 0.4);
+        }
+        
+        .btn-yes:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(231, 84, 128, 0.6);
+        }
+        
+        .btn-option {
+            background-color: white;
+            color: #e75480;
+            border: 2px solid #e75480;
+        }
+        
+        .btn-option:hover {
+            background-color: #f8e1e7;
+        }
+        
+        /* Footer Styles */
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+        }
+        
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 480px) {
+            .proposal-container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 20px;
+            }
+            
+            .names {
+                font-size: 18px;
+            }
+            
+            p {
+                font-size: 15px;
+            }
+            
+            .question-text {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="proposal-container">
+        <!-- Floating Hearts -->
+        <div class="heart" style="top: 10%; left: 15%; font-size: 24px;">💖</div>
+        <div class="heart" style="top: 70%; left: 80%; font-size: 30px;">💕</div>
+        <div class="heart" style="top: 30%; left: 85%; font-size: 20px;">💗</div>
+        <div class="heart" style="top: 85%; left: 10%; font-size: 28px;">💓</div>
+        
+        <div class="header">
+            <h1>Abdullah's Heartfelt Proposal</h1>
+            <div class="names">For Azqa</div>
+        </div>
+        
+        <div class="proposal-content">
+            <p style="animation-delay: 0.2s;"><span class="highlight">Azqa</span>, from the moment I met you, something inside me just... clicked.</p>
+            <p style="animation-delay: 0.4s;">The way you laugh, the way you care about people, even the way your eyes light up when you talk about things you love—it all makes my heart race.</p>
+            <p style="animation-delay: 0.6s;">I didn't just fall for you; I fell for the way you make ordinary days feel extraordinary.</p>
+            <p style="animation-delay: 0.8s;">You're the kind of person who turns small moments into memories, and I want more of those memories—with you.</p>
+            <p style="animation-delay: 1s;">I don't know what the future holds, but I know one thing for sure: I want you in mine.</p>
+            <p style="animation-delay: 1.2s;">Not just as a crush, not just as a friend, but as someone I can love, cherish, and grow with.</p>
+        </div>
+        
+        <div class="question">
+            <div class="question-text">So, Azqa...</div>
+            <div class="question-text">Will you let me be yours?</div>
+            <div class="question-text">Will you be my girlfriend?</div>
+        </div>
+        
+        <div class="btn-container">
+            <button class="btn btn-yes" id="btnYes">Yes, Abdullah! My heart is yours!</button>
+            <button class="btn btn-option">*Nods shyly* (Which means YES!)</button>
+            <button class="btn btn-option">I've been waiting for you to ask!</button>
+        </div>
+        
+        <div class="footer">
+            Made with love by Abdullah
+        </div>
+    </div>
+
+    <script>
+        // Add interactivity
+        document.getElementById('btnYes').addEventListener('click', function() {
+            // Create heart explosion
+            for (let i = 0; i < 50; i++) {
+                createHeart();
+            }
+            
+            // Change the button text
+            this.textContent = "🎉 Yes! I'm the luckiest! 🎉";
+            this.style.fontSize = "18px";
+            
+            // Add celebration message
+            const celebration = document.createElement('div');
+            celebration.innerHTML = `
+                <div style="text-align: center; margin-top: 20px; animation: fadeIn 1s;">
+                    <h2 style="color: #e75480;">This is just the beginning of our beautiful story...</h2>
+                    <p style="margin-top: 10px;">Azqa + Abdullah</p>
+                    <p style="font-size: 40px; margin: 10px 0;">💑</p>
+                </div>
+            `;
+            document.querySelector('.btn-container').after(celebration);
+        });
+        
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.innerHTML = '💖';
+            heart.style.position = 'absolute';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.top = Math.random() * 100 + 'vh';
+            heart.style.fontSize = (Math.random() * 20 + 10) + 'px';
+            heart.style.animation = `float ${Math.random() * 3 + 2}s linear infinite`;
+            document.body.appendChild(heart);
+            
+            // Remove heart after animation
+            setTimeout(() => {
+                heart.remove();
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
